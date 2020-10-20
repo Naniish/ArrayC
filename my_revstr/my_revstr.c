@@ -27,11 +27,3 @@ void my_revstr(char *str){
     debut++;
     fin--;
   }
-
-}
-
-int main(int argc, char **argv){
-  char str[50]="coucou";
-  my_revstr(str);
-    return (0);
-}
