@@ -11,8 +11,9 @@
 
 void my_strlen(const char *str){
   int i;
+  int l = strlen(str);
   int count=0;
-  for(i=0; i<strlen(str); i++){
+  for(i=0; i < l; i++){
     count++;
   }
   printf("%d\n", count);

@@ -8,10 +8,10 @@
 
 
 void my_putstr(const char *str){
-  char chaine[] = "hello im diarra";
+ 
   int i=0;
-  for(i=0; i<sizeof(chaine); i++){
-    printf("%c\n", chaine[i]);
+  for(i=0; i<sizeof(str); i++){
+    printf("%c\n", str[i]);
   }
 }
 

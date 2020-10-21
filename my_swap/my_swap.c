@@ -14,6 +14,6 @@ void my_swap(int *a, int *b){
   *a = *b;
   *b = prmt;
 
-  printf("%d", a);
-  printf("%d", b);
+  printf("%ls", a);
+  printf("%ls", b);
 }

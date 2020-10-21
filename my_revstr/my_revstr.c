@@ -27,3 +27,4 @@ void my_revstr(char *str){
     debut++;
     fin--;
   }
+}
